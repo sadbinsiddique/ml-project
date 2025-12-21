@@ -1,4 +1,6 @@
 from types import ModuleType
+import logging
+import sys
 
 def error_message_detail(error: BaseException, error_detail: ModuleType):
     _, _, exc_tb = error_detail.exc_info()

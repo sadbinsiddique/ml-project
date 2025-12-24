@@ -6,4 +6,7 @@ scikit-learn
 xgboost
 lightgbm
 catboost
+fastapi
+jinja2
+uvicorn
 -e .
